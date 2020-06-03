@@ -1,11 +1,21 @@
 ** Tuesday 2 June 2020
 
-- thought about how to prove that every chordal strip
+- Thought about how to prove that every chordal strip
 has a 'left-to-right' ordering w.r.t. rungs.
 
-- assuming that I have such a lemma (above), I continued
+- Assuming that I have such a lemma (above), I continued
 working on the 'main part' of the proof that my ordering
 is a Tucker ordering.
 
-- meeting with Sam and Peter about marking advanced software
-engineering
+- Meeting with Sam and Peter about marking advanced software
+engineering.
+
+** Wendesday 3 June 2020
+
+- Continued proving cases.
+
+- Extracted one or two arguments out into claims.
+
+- Found out that we need a kind of symmetric thing of $W_{i+1}^*$.
+I defined $V_i^*$ and it seems we need to prove that
+$G[ V_i^* \cup \mathcal{S}_{i,i+1} \cup W_{i+1}^* ]$ is a strip.
