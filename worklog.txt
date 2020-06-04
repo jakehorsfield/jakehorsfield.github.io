@@ -19,3 +19,16 @@ engineering.
 - Found out that we need a kind of symmetric thing of $W_{i+1}^*$.
 I defined $V_i^*$ and it seems we need to prove that
 $G[ V_i^* \cup \mathcal{S}_{i,i+1} \cup W_{i+1}^* ]$ is a strip.
+
+** Thursday 4 June 2020
+
+- Had a meeting with Kristina to discuss the left-right
+interval ordering of rungs in chordal strips thing.
+We thought we knew how to prove it simply, but I tried
+writing it up after the call and it is much more complicated.
+
+- The path order lemma was incorrecet so I changed the statement
+of the lemma and updated the proof.
+
+- Worked on figuring out what happens with $V_i$ and $W_i$,
+how they can intersect etc.
