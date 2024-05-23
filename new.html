@@ -7,96 +7,153 @@
     <title>Jake Horsfield</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     <style>
-        body {
-            background: #f0f2f5;
-            color: #333;
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+body {
+    background: #FAF3E0; /* Cream background color */
+    color: #333; /* Dark text color */
+    font-family: "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+    margin-bottom: 200px;
+    padding: 20px; /* Added padding to give some space around the content */
+}
 
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #FFFDF5; /* Slightly lighter cream for content background */
+    border: 1px solid #E0DCC8; /* Border to mimic page outline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
 
-        ul {
-            padding: 0 20px;
-        }
+header {
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    padding-bottom: 15pt;
+}
 
-        li {
-            margin: 10px 0;
-        }
+header h1 {
+    font-size: 30pt;
+    margin-bottom: 0;
+    color: #C67C04; /* Adjusted color for better contrast */
+}
 
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 15pt;
-            text-align: center;
-        }
+header h2 {
+    margin-top: 0;
+    font-style: italic;
+    padding: .5em;
+    color: #D39A0C;
+}
 
-        header h1 {
-            font-size: 30pt;
-            margin-bottom: 0;
-            color: #333;
-            font-family: 'Montserrat', sans-serif;
-        }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
 
-        header h2 {
-            margin-top: 0;
-            font-style: italic;
-            padding: .5em;
-            color: #555;
-            font-family: 'Montserrat', sans-serif;
-        }
+h1 { color: #C67C04; }
+h2 { color: #D39A0C; }
+h3 { color: #DDA15E; }
+h4 { color: #F4A261; }
+h5, h6 { color: #E9C46A; }
 
-        header img {
-            border-radius: 50%;
-            margin: 10px 0;
-        }
+strong {
+    color: #F4A261;
+}
 
-        a {
-            color: #007bff;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
 
-        a:hover {
-            color: #0056b3;
-            text-decoration: underline;
-        }
+a:hover {
+    text-decoration: underline;
+}
 
-        .content:hover {
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        }
+li {
+    margin: 5px 0;
+    padding-bottom: .5em;
+}
 
-        @media (max-width: 600px) {
-            .content {
-                padding: 10px;
-            }
+dt {
+    font-weight: bold;
+}
 
-            header h1 {
-                font-size: 24pt;
-            }
+aside {
+    font-style: italic;
+    font-size: small;
+    color: #777;
+}
 
-            header h2 {
-                font-size: 16pt;
-            }
+main {
+    max-width: 800px;
+    margin: auto;
+}
 
-            ul {
-                padding: 0 10px;
-            }
+main > article {
+    margin-bottom: 0;
+    margin: auto;
+}
 
-            li {
-                margin: 5px 0;
-            }
-        }
-    </style>
+footer {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
+}
+
+@media (min-width: 1200px) {
+    .resright, .profile {
+        display: block;
+        float: right;
+        clear: both;
+        padding: 10px;
+        max-width: 300px;
+    }
+}
+
+.profile img {
+    border-radius: 50px;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+figcaption {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
+
+input, textarea {
+    background: #F3EAD9;
+    color: #333;
+    border-color: #E0DCC8;
+    font-size: large;
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    width: 30em;
+}
+
+pre {
+    border-radius: 20px;
+    padding: 1em;
+    background: #FFFDF5; /* Match the content background */
+    border: 1px solid #E0DCC8;
+    color: #333;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: large;
+}
+
+.time {
+    font-family: monospace;
+    color: #888;
+    font-size: 10pt;
+}
+</style>
+
 </head>
 
 <body>
